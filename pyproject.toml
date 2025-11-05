@@ -1,0 +1,14 @@
+[project]
+name = "example-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-google-genai>=3.0.1",
+    "langchain-google-vertexai>=3.0.2",
+    "langchain[google-gemini]>=1.0.3",
+    "pydantic>=2.12.3",
+    "tavily-python>=0.7.12",
+]
